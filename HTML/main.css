@@ -1,14 +1,10 @@
-/*Estilo 1 */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo 2 */
-
-header {
+body > header {
     padding: 16px 0;
     background-color: #182c61;
     color: #ecf0f1;
@@ -25,15 +21,11 @@ header nav li a {
     text-decoration: none;
 }
 
-/* Estilo 3 */
-
 .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
-
-/* Estilo 4 */
 
 header .container {
     display: flex;
@@ -41,16 +33,12 @@ header .container {
     justify-content: space-between;
 }
 
-/* Estilo 5 */
-
 header .container,
 section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-/* Estilo 6 */
 
 .brands-list img {
     height: 24px;
@@ -60,8 +48,6 @@ section .container {
     display: inline;
     margin-right: 8px;
 }
-
-/* Estilo 7 */
 
 section .container {
     align-items: flex-start;
@@ -83,13 +69,9 @@ section p {
     margin-bottom: 8px;
 }
 
-/* Estilo 8 */
-
 .store-front {
     margin-right: 32px;
 }
-
-/* Contato */
 
 #contact .container {
     display: block;
@@ -99,8 +81,6 @@ section p {
     display: flex;
     justify-content: space-between;
 }
-
-/* Fale conosco */
 
 form input,
 form textarea,
@@ -131,8 +111,6 @@ input:focus, textarea:focus {
     outline-color: #182c61;
 }
 
-/* Midias Sociais */
-
 .social-links img {
     height: 24px;
 }
@@ -144,4 +122,10 @@ input:focus, textarea:focus {
 
 .social-links li a {
     text-decoration: none;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
 }
